@@ -21,18 +21,18 @@ div.align-card{
 
 .card{
     z-index: 2;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 main.content{
     background-color: #FFFFFF;
     width: 450px;
-    height: 1200px;
+    height: 600px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 div.my-informations img{
@@ -41,6 +41,7 @@ div.my-informations img{
     border-radius: 50%;
     margin-left: 20%;
     margin-bottom: 5%;
+    margin-top: 10%;
 }
 
 div.my-informations h1{
@@ -48,10 +49,11 @@ div.my-informations h1{
     color: #120c56;
     font-size: 40px;
     text-align: center;
+    font-size: 22px;
 }
 
 div.my-informations h3{
-    font-size: 22px;
+    font-size: 15px;
 }
 
 div.my-informations h3,
